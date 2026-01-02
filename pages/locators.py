@@ -16,4 +16,5 @@ class ProductPageLocators:
     PRODUCT_PRICE = (By.CSS_SELECTOR, ".table-striped>tbody>tr:nth-child(4)>td")
     ALERT_PRODUCT_NAME = (By.CSS_SELECTOR, "#messages>.alert:nth-child(1)>div>strong")
     ALERT_PRODUCT_PRICE = (By.CSS_SELECTOR, "#messages>.alert:nth-child(3)>div>p>strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success")
 
